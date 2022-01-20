@@ -7,6 +7,7 @@ input.o:input.c
 calcu.o:calcu.c
 	gcc -c calcu.c
 
+.PHONY:clean
 clean:
 	rm *.o
 	rm main
